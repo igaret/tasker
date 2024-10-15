@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="script_editor_line_wrap" value="false" />
+    <boolean name="dont_show_again_tip_create_placed_object" value="false" />
+    <string name="main_dir">/storage/emulated/0/Automagic</string>
+    <boolean name="nfc_type_existing_enabled" value="true" />
+    <string name="script_editor_font_size">12</string>
+    <string name="language"></string>
+    <string name="alternate_gmail_host_workaround"></string>
+    <boolean name="launch_browser_app_intent_received_enabled" value="false" />
+    <boolean name="start_after_booting" value="true" />
+    <boolean name="launch_mail_app_intent_received_enabled" value="false" />
+    <boolean name="android_wear_reliability_workaround" value="false" />
+    <long name="com.applisto.appcloner.classes.cloneTimestamp" value="1690699933762" />
+    <boolean name="classic_time_picker_workaround" value="false" />
+    <string name="accessibility_feedback_type">16</string>
+    <int name="list_scroll_top" value="0" />
+    <boolean name="debug_sensor_log" value="false" />
+    <boolean name="speech_output_delay_workaround" value="false" />
+    <string name="back_behavior">ASK</string>
+    <boolean name="dont_show_again_gesture_recording_info" value="false" />
+    <boolean name="dont_show_again_help_accessibility_overlay_control" value="true" />
+    <boolean name="dont_show_automagic_input_method" value="false" />
+    <boolean name="device_admin" value="true" />
+    <string name="script_editor_typeface">MONOSPACE</string>
+    <boolean name="foreground_service" value="true" />
+    <boolean name="external_sdcard_access_granted" value="false" />
+    <boolean name="tos_accepted" value="true" />
+    <string name="accessibility_event_wait_time">500</string>
+    <boolean name="launch_music_app_intent_received_enabled" value="false" />
+    <boolean name="disable_service_communication_for_plugins_workaround" value="false" />
+    <boolean name="stopped_by_user" value="false" />
+    <boolean name="receive_data_enabled" value="true" />
+    <boolean name="view_web_url_intent_received_enabled" value="true" />
+    <boolean name="script_editor_syntax_highlighting" value="true" />
+    <string name="emergency_stop_count">600</string>
+    <boolean name="dont_populate_notification_text_variables" value="false" />
+    <boolean name="notification_access_enabled" value="true" />
+    <boolean name="ignore_power_optimization_enabled" value="true" />
+    <boolean name="dont_show_set_system_setting_confirmation" value="false" />
+    <boolean name="launch_contacts_app_intent_received_enabled" value="false" />
+    <boolean name="low_priority_notification" value="true" />
+    <boolean name="launch_calculator_app_intent_received_enabled" value="false" />
+    <string name="expanded_groups">Freebitco.in</string>
+    <string name="theme">dark</string>
+    <boolean name="root_enabled" value="true" />
+    <int name="list_scroll_index" value="0" />
+    <boolean name="accessibility_service_enabled" value="true" />
+    <boolean name="launch_calendar_app_intent_received_enabled" value="false" />
+    <boolean name="write_log_to_sdcard" value="false" />
+    <boolean name="launcher_trigger_receiver_enabled" value="false" />
+    <boolean name="disable_hardware_acceleration_flow_editor_workaround" value="false" />
+    <boolean name="debug_log" value="false" />
+    <boolean name="spinner_drag_to_open_workaround" value="false" />
+    <boolean name="send_intent_received_enabled" value="true" />
+    <boolean name="ftp_list_files_workaround" value="false" />
+    <boolean name="network_prefer_ipv4_workaround" value="false" />
+    <int name="com.applisto.appcloner.classes.originalInstallVersionCode" value="5000" />
+    <boolean name="dont_show_again_tip_create_connection" value="true" />
+    <boolean name="start_after_updating" value="false" />
+    <boolean name="samsung_wireless_charging_detection_workaround" value="false" />
+    <boolean name="dont_show_again_help_accessibility_activity" value="true" />
+    <string name="log_font_size">12</string>
+    <string name="custom_main_dir">CUSTOM</string>
+</map>
