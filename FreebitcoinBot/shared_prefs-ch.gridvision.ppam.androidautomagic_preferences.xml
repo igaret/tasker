@@ -2,7 +2,7 @@
 <map>
     <boolean name="script_editor_line_wrap" value="false" />
     <boolean name="dont_show_again_tip_create_placed_object" value="false" />
-    <string name="main_dir">/storage/emulated/0/Automagic</string>
+    <string name="main_dir">/storage/emulated/0/Automagic/Automagic</string>
     <boolean name="nfc_type_existing_enabled" value="true" />
     <string name="script_editor_font_size">12</string>
     <string name="language"></string>
