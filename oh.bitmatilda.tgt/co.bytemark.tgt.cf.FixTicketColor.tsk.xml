@@ -1,0 +1,261 @@
+<TaskerData sr="" dvi="1" tv="6.4.16">
+	<Task sr="task31">
+		<cdate>1663997511658</cdate>
+		<edate>1745111668825</edate>
+		<id>31</id>
+		<nme>co.bytemark.tgt.cf.FixTicketColor</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<showinnot>false</showinnot>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>Init</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>377</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%td_button
+Button
+The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Fix what</Str>
+			<Str sr="arg2" ve="3">Choose whether COLOR or ZOOM need adjusted</Str>
+			<Str sr="arg3" ve="3">COLOR</Str>
+			<Str sr="arg4" ve="3">ZOOM</Str>
+			<Str sr="arg5" ve="3">BOTH</Str>
+			<Int sr="arg6">
+				<var>9999</var>
+			</Int>
+			<Int sr="arg7" val="1"/>
+			<Str sr="arg8" ve="3">https://raw.githubusercontent.com/igaret/tasker/refs/heads/main/oh.bitmatilda.tgt/black-h.gif</Str>
+			<Str sr="arg9" ve="3">200</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>67</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="4"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">ShowCodeTouchArea</Str>
+			<Int sr="arg2" val="200"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">exit</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>300</code>
+			<label>COLOR</label>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%td_button</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>73</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>69</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Int sr="arg1" val="16"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">&lt;WebElement sr=""ve="2"&gt;&lt;Str sr="arg0"ve="3"&gt;WebView1&lt;/Str&gt;&lt;Int sr="arg1"val="0"/&gt;&lt;Str sr="arg2"ve="3"&gt;https://raw.githubusercontent.com/igaret/tasker/refs/heads/main/oh.bitmatilda.tgt/%TicketColor%CharDash%TicketLetter%GIFExt&lt;/Str&gt;&lt;Int sr="arg3"val="0"/&gt;&lt;Int sr="arg4"val="1"/&gt;&lt;Int sr="arg5"val="0"/&gt;&lt;Int sr="arg6"val="1"/&gt;&lt;Int sr="arg7"val="1"/&gt;&lt;Str sr="arg8"ve="3"/&gt;&lt;geom&gt;0,447,718,754,-1,-1,-1,-1&lt;/geom&gt;&lt;flags&gt;4&lt;/flags&gt;&lt;/WebElement&gt;</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>67</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="4"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">ShowCodeTouchArea</Str>
+			<Int sr="arg2" val="200"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">exit</Str>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>300</code>
+			<label>ZOOM</label>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>67</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="4"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%td_button</Str>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="15"/>
+			<Str sr="arg3" ve="3">100</Str>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">sleep(333)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">ShowCodeTouchArea</Str>
+			<Int sr="arg2" val="200"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">exit</Str>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>300</code>
+			<label>exit</label>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>300</code>
+			<label>BOTH</label>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>73</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>69</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.MetroTicket</Str>
+			<Int sr="arg1" val="16"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">&lt;WebElement sr=""ve="2"&gt;&lt;Str sr="arg0"ve="3"&gt;WebView1&lt;/Str&gt;&lt;Int sr="arg1"val="0"/&gt;&lt;Str sr="arg2"ve="3"&gt;https://raw.githubusercontent.com/igaret/tasker/refs/heads/main/oh.bitmatilda.tgt/%TicketColor%CharDash%TicketLetter%GIFExt&lt;/Str&gt;&lt;Int sr="arg3"val="0"/&gt;&lt;Int sr="arg4"val="1"/&gt;&lt;Int sr="arg5"val="0"/&gt;&lt;Int sr="arg6"val="1"/&gt;&lt;Int sr="arg7"val="1"/&gt;&lt;Str sr="arg8"ve="3"/&gt;&lt;geom&gt;0,447,718,754,-1,-1,-1,-1&lt;/geom&gt;&lt;flags&gt;4&lt;/flags&gt;&lt;/WebElement&gt;</Str>
+		</Action>
+		<ProfileVariable sr="pv0">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>true</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn>global</pvdn>
+			<pvid>21</pvid>
+			<pvit>t</pvit>
+			<pvn>%global_vars</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Task>
+</TaskerData>
